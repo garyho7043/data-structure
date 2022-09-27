@@ -292,21 +292,7 @@ void iterInorder(treePointer ptr)
     }
 }
 
-void iterPreorder(treePointer ptr)
-{
-    for(;;)
-    {
-        for(; ptr; ptr = ptr -> leftChild)
-        {
-            printf("%c", ptr -> data);
-            push1(ptr);
-        }
-        ptr = pop1();
-        if(!ptr)
-            break;
-        ptr = ptr -> rightChild;
-    }
-}
+
 
 
 
