@@ -14,3 +14,6 @@ print("\nA_2d*B_2d = \n",matmul_2D)
 
 
 
+
+
+
